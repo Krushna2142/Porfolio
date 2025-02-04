@@ -1,0 +1,96 @@
+/* Global Styling */
+body {
+    background-color: black; /* Dark background */
+    color: #00ffff; /* Neon Blue Text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center the section vertically */
+  }
+  
+  /* Contact Section Container */
+  .container {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    background: #121212; /* Slightly lighter black for the form container */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #00ffff; /* Glow effect */
+  }
+  
+  /* Form Styles */
+  form {
+    margin-top: 20px;
+  }
+  
+  form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #00ffff; /* Neon Blue */
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #1e1e1e; /* Dark gray for the input */
+    border: 1px solid #00ffff; /* Neon border */
+    border-radius: 5px;
+    color: #00ffff; /* Neon blue text */
+    font-size: 1rem;
+    outline: none; /* Remove focus outline */
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border: 1px solid #00ffff;
+    box-shadow: 0 0 10px #00ffff;
+  }
+  
+  /* Button Styling */
+  .btn {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    background: #00ffff; /* Neon Blue */
+    color: black; /* Dark text */
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: black;
+    color: #00ffff;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff; /* Glow hover effect */
+  }
+  
+  /* Response Container Styles */
+  #response-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #00ffff;
+    border-radius: 10px;
+    display: none; /* Hidden by default */
+  }
+  
+  .response-hidden {
+    display: none; /* Dynamically added class to hide response */
+  }
+  
+  .response-visible {
+    display: block;
+    color: #00ffff; /* Neon Blue Text */
+  }
+  
